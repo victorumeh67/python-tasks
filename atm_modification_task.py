@@ -41,9 +41,7 @@ def login():
         print('Invalid account or password!')
         reg()
 
-    # print("**********login**********")
-    # account_number = input("Enter your account number: ")
-    # pass_word = input("Enter your password: ")
+# I don't know why at this point this last call function reg() recursively calls itself when I press the exit button from the exit function
 
 
 def reg():
