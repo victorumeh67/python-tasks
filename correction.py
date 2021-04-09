@@ -35,9 +35,9 @@ def login():
             bankOperation(userDetails)
             isloginsuccessful = True
 
-        else:
-            print('Invalid account or password!')
-            logout()
+    else:
+        print('Invalid account or password!')
+        logout()
 
 
 
